@@ -22,6 +22,14 @@ audio) and returns:
 
 ![WAVE AI Architecture](assets/architecture_diagram.png)
 
+## Selected AI Results
+
+![Selected AI Results](assets/selected_ai_results.png)
+
+## Audio Feature Exploration & Preprocessing
+
+![Audio Feature and Preprocessing Plots](assets/audio_feature_preprocessing_plots.png)
+
 ## Tech stack
 
 | Component | Technology |
