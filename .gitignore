@@ -1,0 +1,32 @@
+# Environments & secrets
+.env
+*.env
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model weights & large binaries (hosted on Hugging Face Hub instead — see models/README.md)
+models/*.bin
+models/*.pt
+models/*.safetensors
+models/*/
+!models/README.md
+
+# Full datasets (not published — see data/README.md)
+data/raw/
+data/full/
+data/*.csv
+data/audio/
+
+# OS / IDE junk
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
